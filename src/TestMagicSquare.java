@@ -26,7 +26,7 @@ public class TestMagicSquare {
         // Create a new MagicSquare object of size n
         MagicSquare ms = new MagicSquare(n);
         // Print out the Magic Square, the sum of the main diagonal, a specific column, and a specific row
-        System.out.println("Magic Square of size " + n + "x" + n + ":\n\n" + ms +
+        System.out.println("\nMagic Square of size " + n + "x" + n + ":\n\n" + ms +
                 "\nMain diagonal sum: " + ms.diagonalSum() +
                 "\nColumn sum: " + ms.columnSum(0) +
                 "\nRow sum: " + ms.rowSum(n - 1) + "\n");
